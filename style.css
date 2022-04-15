@@ -115,7 +115,7 @@
     text-align: center;
     background-color:black;
     color: seashell;
-    position: absolute;
+    position: sticky;
     bottom: 0;
   }
   
