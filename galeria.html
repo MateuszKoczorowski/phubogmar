@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <title>Zadanie nr 14</title>
+    <meta charset="UTF-8">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="description" content="Co zawiera strona">
+    <meta name="keywords" content="Słowa kluczowe dla wyszukiwarek">
+    <meta name="author" content="Paweł Lalewicz">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+<nav id="myLinks">
+  <h1>Robyn Adele Anderson</h1>
+    <a href="index.html">HOME</a>
+    <a class="active" href="galeria.html">GALERIA</a>
+    <a href="multimedia.html">MULTIMEDIA</a>
+    <a href="kontakt.html">KONTAKT</a>
+</nav>
+<div class="button">
+    <button id="menu" onclick="myFunction()">&#9776;</button>
+</div>
+        <main>
+            <h2>GALERIA</h2>
+            <div class="responsive">
+              <div class="gallery">
+                  <a target="_blank" href="galeria/RAA01.jpg">
+                    <img src="galeria/RAA01.jpg" alt="vol 1">
+                  </a>
+                  <div class="desc">Vol 1</div>
+                </div>
+            </div>
+            <div class="responsive">
+              <div class="gallery">
+                <a target="_blank" href="galeria/RAA02.jpg">
+                  <img src="galeria/RAA02.jpg" alt="vol 2">
+                </a>
+                <div class="desc">Vol 2</div>
+              </div>
+            </div>   
+            <div class="responsive">  
+              <div class="gallery">
+                <a target="_blank" href="galeria/RAA03.jpg">
+                  <img src="galeria//RAA03.jpg" alt="vol 3">
+                </a>
+                <div class="desc">Vol 3</div>
+              </div>
+            </div>
+            <div class="responsive">
+              <div class="gallery">
+                <a target="_blank" href="galeria/RAA04.jpg">
+                  <img src="galeria/RAA04.jpg" alt="vol 4">
+                </a>
+                <div class="desc">Vol 4</div>
+              </div>
+            </div>
+            <div class="responsive">
+              <div class="gallery">
+                  <a target="_blank" href="galeria/RAA05.jpg">
+                    <img src="galeria/RAA05.jpg" alt="vol 5">
+                  </a>
+                  <div class="desc">Vol 5</div>
+                </div>
+            </div>
+            <div class="responsive">
+              <div class="gallery">
+                <a target="_blank" href="galeria/RAA06.jpg">
+                  <img src="galeria/RAA06.jpg" alt="vol 6">
+                </a>
+                <div class="desc">Vol 6</div>
+              </div>
+            </div>   
+            <div class="responsive">  
+              <div class="gallery">
+                <a target="_blank" href="galeria/RAA07.jpg">
+                  <img src="galeria/RAA07.jpg" alt="OMG I Love Jazz">
+                </a>
+                <div class="desc">OMG I Love Jazz</div>
+              </div>
+            </div>
+            <div class="responsive">
+              <div class="gallery">
+                <a target="_blank" href="galeria/RAA08.jpg">
+                  <img src="galeria/RAA08.jpg" alt="vintage christmas">
+                </a>
+                <div class="desc">Vintage Christmas</div>
+              </div>
+            </div>
+        </main>
+<footer>
+    <h3>PL &copy; 2022</h3>
+</footer>
+<script>
+    function myFunction() {
+        document.getElementById("myLinks").style.display = "flex";
+        document.getElementById("menu").style.display = "none";
+    }
+</script>
+</body>
+</html>

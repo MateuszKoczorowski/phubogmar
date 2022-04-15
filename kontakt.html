@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <title>Zadanie nr 14</title>
+    <meta charset="UTF-8">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="robots" content="noindex, nofollow">
+    <meta name="description" content="Co zawiera strona">
+    <meta name="keywords" content="Słowa kluczowe dla wyszukiwarek">
+    <meta name="author" content="Paweł Lalewicz">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+
+<nav id="myLinks">
+    <h1>Robyn Adele Anderson</h1>
+    <a href="index.html">HOME</a>
+    <a href="galeria.html">GALERIA</a>
+    <a href="multimedia.html">MULTIMEDIA</a>
+    <a class="active" href="kontakt.html">KONTAKT</a>
+</nav>
+<div class="button">
+    <button id="menu" onclick="myFunction()">&#9776;</button>
+</div>
+        <main>
+            <h2>KONTAKT</h2>
+            <img src="galeria/Robyn Adele Anderson.jpg" alt="Robyn Adele Anderson" class="top">
+            <form action='/14/success' data-netlify-recaptcha='true' method='post' name='zad14'><input type='hidden' name='form-name' value='zad14' />
+                <fieldset>
+                    <legend>Formularz kontaktowy</legend>
+                        <p>Imię: <br><input type="text" name="first_name" pattern="[A-z]{3,}" title="Imię musi mieć min 3 znaki" required></p>
+                        <p>Nazwisko: <br><input type="text" name="last_name" pattern="[A-z]{3,}" title="Imię musi mieć min 3 znaki" required></p>
+                        <p>Email: <br><input type="text" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Adres email musi być właściwego formatu" required></p>
+                        <p>Wiadomość:<br><textarea rows="5" name="message" cols="30"></textarea></p>
+                        <div><script src='https://www.google.com/recaptcha/api.js'></script>
+<div class='g-recaptcha' data-sitekey='6LdAvUIUAAAAAHjrjmjtNTcXyKm0WKwefLp-dQv9'></div>
+<noscript>
+  <div>
+  <div style="width: 302px; height: 422px; position: relative;">
+  <div style="width: 302px; height: 422px; position: absolute;">
+  <iframe src="https://www.google.com/recaptcha/api/fallback?k=6LdAvUIUAAAAAHjrjmjtNTcXyKm0WKwefLp-dQv9" frameborder="0" scrolling="no"
+    style="width: 302px; height:422px; border-style: none;">
+  </iframe>
+  </div>
+  </div>
+  <div style="width: 300px; height: 60px; border-style: none; bottom: 12px; left: 25px; margin: 0px; padding: 0px; right: 25px; background: #f9f9f9; border: 1px solid #c1c1c1; border-radius: 3px;">
+    <textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response"
+      style="width: 250px; height: 40px; border: 1px solid #c1c1c1; margin: 10px 25px; padding: 0px; resize: none;" >
+    </textarea>
+  </div>
+  </div>
+</noscript>
+</div>
+                        <p><input type="submit" name="submit" value="WYŚLIJ"></p>
+                </fieldset>
+            </form>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d93877.87035717332!2d-73.8807208607538!3d42.66806306622815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89de0a34cc4ffb4b%3A0xe1a16312a0e728c4!2sAlbany%2C%20Nowy%20Jork%2C%20Stany%20Zjednoczone!5e0!3m2!1spl!2spl!4v1642584830616!5m2!1spl!2spl" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </main>
+<footer>
+    <h3>PL &copy; 2022</h3>
+</footer>
+<script>
+    function myFunction() {
+        document.getElementById("myLinks").style.display = "flex";
+        document.getElementById("menu").style.display = "none";
+    }
+</script>
+</body>
+</html>
