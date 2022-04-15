@@ -150,7 +150,7 @@
      
     }
 
-    nav h1{
+    nav h2{
       font-size: 10px;
       display: none;
     }
@@ -217,7 +217,7 @@
 
     .slider2{
       height: 50px;
-      z-index: 2;
+      z-index: -1;
     }
 
     .slider2.slider .element-title {
