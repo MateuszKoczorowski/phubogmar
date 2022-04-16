@@ -62,7 +62,70 @@
     color: rgba(20, 19, 19, 0.7);
     margin-top: 10%;
   }
+  main p{
+    width: 80%;
+    text-align: left;
+    
+  }
+#product{
+  margin-top: 20%;
+  justify-content:center;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
+  .product1{
+    margin: 2%;
+    box-shadow: 0 0 1em rgb(199, 199, 199);
+    width: 350px;
+    height: 250px;
+    background:
+              linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.5)),
+              url(img/pexels-photo-1684989.jpeg);
+          background-size: cover;
+          background-position: center center;
+   
+  }
+  .product2{
+    margin: 2%;
+    box-shadow: 0 0 1em rgb(199, 199, 199);
+    width: 350px;
+    height: 250px;
+    background:
+              linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.5)),
+              url(img/pexels-photo-2199293.jpeg);
+          background-size: cover;
+          background-position: center center;
+    
+  }
+  .product3{
+    margin: 2%;
+    box-shadow: 0 0 1em rgb(199, 199, 199);
+    width: 350px;
+    height: 250px;
+    background:
+              linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.5)),
+              url(img/istockphoto-94293803-612x612.jpg);
+          background-size: cover;
+          background-position: center center;
+    
+  }
 
+  .product1.product-title{
+    font-size: larger;
+    color: #fff;
+    
+  }
+  .product2.product-title{
+    font-size: larger;
+    color: #fff;
+    
+  }
+  .product3.product-title{
+    font-size: larger;
+    color: #fff;
+    
+  }
 
   div.gallery {
     border: 1px solid white;
@@ -118,6 +181,11 @@
     position: sticky;
     bottom: 0;
   }
+
+  footer img {
+    float:right;
+    margin-right: 5%; ;
+  }
   
   @media (max-width: 900px) {
     nav {   
@@ -163,7 +231,9 @@
       display: block;
       justify-content: center;
     }
-
+    .product{
+      width: 100%;
+    }
     .responsive {
       width: 100%;
     }
@@ -220,8 +290,8 @@
       z-index: -1;
     }
 
-    .slider2.slider .element-title {
-      font-size:3rem;
+    .slider2.slider.element-title {
+      font-size: 10px;
       padding-left:2rem;
       padding-right:2rem;
   }
