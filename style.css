@@ -339,13 +339,31 @@ border-bottom:5px solid rgba(4, 4, 188);
       z-index: -1;
     }
 
+
     .slider2.slider.element-title {
       font-size: 10px;
       padding-left:2rem;
       padding-right:2rem;
   }
+
+  .slider2 .element1 {
+    
+      
+    background-size: cover;
+    background-position: center center;
+  }
+  .slider2 .element2 {
+    
+    background-size: cover;
+    background-position: center center;
+  }
+  .slider2 .element3 {
+    
+       
+    background-size: cover;
+    background-position: center center;
+  }
 }
-  
 
   /*===========SLIDER================ */
   .slider {
