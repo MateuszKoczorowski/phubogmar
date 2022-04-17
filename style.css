@@ -211,7 +211,8 @@ border-bottom:5px solid rgba(4, 4, 188);
   .socialmedia{
     float: left;
    padding-top: 10px;
-   padding-left: 50px;
+   padding-left: 10px;
+   
     display:flex;
     margin: 10px;
     
@@ -244,6 +245,8 @@ border-bottom:5px solid rgba(4, 4, 188);
   footer .imgfoot {
     flex-wrap: wrap;
     float:right;
+    display: block;
+    margin-top: 10px; ;
     margin-right: 5%; 
   }
   
@@ -366,18 +369,18 @@ border-bottom:5px solid rgba(4, 4, 188);
   .slider2 .element1 {
     
       
-    background-size: cover;
+    background-size:contain;
     
   }
   .slider2 .element2 {
     
-    background-size: cover;
+    background-size:contain;
     
   }
   .slider2 .element3 {
     
        
-    background-size: cover;
+    background-size:contain;
     
   }
 }
@@ -546,7 +549,7 @@ border-bottom:5px solid rgba(4, 4, 188);
       background-attachment: fixed;
   }
       .slider2.slider .element-title {
-          font-family: 'Roboto Slab', serif;
+          
           text-transform: none;
           font-size:4rem;
       }
