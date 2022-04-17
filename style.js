@@ -7,13 +7,13 @@ function myFunction() {
 class Slider {
     constructor(elemSelector, opts) {
         this.sliderSelector = elemSelector;
-        this.currentSlide = 0; //aktualny slide
-        this.time = null; //tutaj będziemy podczepiać setTimeout
+        this.currentSlide = 0; 
+        this.time = null; 
         this.slider = null;
         this.elem = null;
         this.slides = null;
-        this.prev = null; //przycisk prev
-        this.next = null; //przucisl next
+        this.prev = null; 
+        this.next = null; 
         this.dots = [];
 
         const defaultOpts = {
@@ -120,7 +120,7 @@ class Slider {
         const ulDots = document.createElement('ul');
         ulDots.classList.add('slider-pagination');
 
-        //tworzymy pętlę w ilości liczby slajów
+       
         for (let i=0; i<this.slides.length; i++) {
           
 
