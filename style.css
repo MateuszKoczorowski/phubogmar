@@ -321,12 +321,14 @@ border-bottom:5px solid rgba(4, 4, 188);
 
     footer {
       clear: both;
-      padding: 1px;
+      
+      max-height: 200px;;
       width: 100%;
       text-align: center;
       background-color:rgb(4, 4, 188,);
       color: seashell;
       bottom: 0;
+      margin: 0;
     }
 
     #slider2{
@@ -349,18 +351,18 @@ border-bottom:5px solid rgba(4, 4, 188);
     
       
     background-size: cover;
-    background-position: center center;
+    
   }
   .slider2 .element2 {
     
     background-size: cover;
-    background-position: center center;
+    
   }
   .slider2 .element3 {
     
        
     background-size: cover;
-    background-position: center center;
+    
   }
 }
 
