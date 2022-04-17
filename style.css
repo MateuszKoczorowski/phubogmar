@@ -324,9 +324,8 @@ border-bottom:5px solid rgba(4, 4, 188);
       padding: 1px;
       width: 100%;
       text-align: center;
-      background-color:rgba(4, 4, 188, 0.4);
+      background-color:rgb(4, 4, 188,);
       color: seashell;
-      position: sticky;
       bottom: 0;
     }
 
