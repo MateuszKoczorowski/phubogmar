@@ -142,8 +142,8 @@ border-bottom:5px solid rgba(4, 4, 188);
 
   #product a:hover{
     
-    color: #fff;
-    box-shadow: inset 0 2em 4em rgb(4, 4, 188);
+    color: rgb(0, 0, 0);
+    box-shadow: inset 0 2em 4em rgb(247, 236, 199);
   }
   .product-title h3{
     color: #fff;
@@ -555,7 +555,17 @@ border-bottom:5px solid rgba(4, 4, 188);
       }
       
 
-     
+      a.gflag {vertical-align:middle;font-size:24px;padding:1px 0;background-repeat:no-repeat;background-image:url(//gtranslate.net/flags/24.png);}
+      a.gflag img {border:0;}
+      a.gflag:hover {background-image:url(//gtranslate.net/flags/24a.png);}
+      #goog-gt-tt {display:none !important;}
+      .goog-te-banner-frame {display:none !important;}
+      .goog-te-menu-value:hover {text-decoration:none !important;}
+      body {top:0 !important;}
+      #google_translate_element2 {
+        display:none!important;
+      
+      }
 
       
          
