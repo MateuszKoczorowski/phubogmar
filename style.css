@@ -350,7 +350,7 @@ border-bottom:5px solid rgba(4, 4, 188);
       margin: 0;
     }
 
-    #slider2{
+    #slider2 {
       width: 100%;
       margin-left: auto;
       margin-right:auto ;
@@ -514,7 +514,7 @@ border-bottom:5px solid rgba(4, 4, 188);
               url(img/istockphoto-1166212575-612x612.jpg);
           background-size: cover;
           background-position: center center;
-          background-attachment: fixed;
+          
       }
       .slider2 .element2 {
         background:
@@ -522,7 +522,7 @@ border-bottom:5px solid rgba(4, 4, 188);
             url(img/istockphoto-1222996465-612x612.jpg);
         background-size: cover;
         background-position: center center;
-        background-attachment: fixed;
+        
     }
     .slider2 .element3 {
       background:
@@ -530,7 +530,7 @@ border-bottom:5px solid rgba(4, 4, 188);
           url(img/istockphoto-146914566-612x612.jpg);
       background-size: cover;
       background-position: center center;
-      background-attachment: fixed;
+      
   }
       .slider2.slider .element-title {
           
