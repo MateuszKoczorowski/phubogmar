@@ -355,7 +355,7 @@ border-bottom:5px solid rgba(4, 4, 188);
       margin-left: auto;
       margin-right:auto ;
       margin: 0px;
-      background-attachment:scroll;
+    
       z-index: -1;
     }
 
@@ -366,7 +366,16 @@ border-bottom:5px solid rgba(4, 4, 188);
       padding-right:2rem;
   }
 
-
+  .slider2 .element1{
+    background-attachment: scroll;
+  }
+  .slider2 .element2{
+    background-attachment: scroll;
+  }
+  .slider2 .element3{
+    background-attachment: scroll;
+    
+  }
 }
 
   /*===========SLIDER================ */
