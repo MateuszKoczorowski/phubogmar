@@ -201,7 +201,7 @@ border-bottom:5px solid rgba(4, 4, 188);
    height: 100%;
     width: 100%;
     text-align: center;
-   background-color:rgb(4, 4, 188 );
+   background-color:rgb(70, 70, 230);
     color: seashell;
     
     bottom: 0;
@@ -246,7 +246,7 @@ border-bottom:5px solid rgba(4, 4, 188);
     flex-wrap: wrap;
     float:right;
     display: block;
-    margin-top: 10px; ;
+    
     margin-right: 5%; 
   }
   
@@ -290,7 +290,7 @@ border-bottom:5px solid rgba(4, 4, 188);
     main{
       width: 100%;
       font-size: large;
-      padding: 10px;
+      
       margin-top: 0;
       display: block;
       justify-content: center;
@@ -344,7 +344,7 @@ border-bottom:5px solid rgba(4, 4, 188);
       max-height: 200px;;
       width: 100%;
       text-align: center;
-      background-color:rgb(4, 4, 188,);
+      background-color:rgb(88, 88, 239);
       color: seashell;
       bottom: 0;
       margin: 0;
@@ -355,34 +355,18 @@ border-bottom:5px solid rgba(4, 4, 188);
       margin-left: auto;
       margin-right:auto ;
       margin: 0px;
-      height: 500px;
+      
       z-index: -1;
     }
 
 
     .slider2.slider.element-title {
-      font-size: 10px;
+      font-size: 8px;
       padding-left:2rem;
       padding-right:2rem;
   }
 
-  .slider2 .element1 {
-    
-      
-    background-size:contain;
-    
-  }
-  .slider2 .element2 {
-    
-    background-size:contain;
-    
-  }
-  .slider2 .element3 {
-    
-       
-    background-size:contain;
-    
-  }
+
 }
 
   /*===========SLIDER================ */
@@ -555,21 +539,15 @@ border-bottom:5px solid rgba(4, 4, 188);
       }
       
 
-       #goog-gt-tt {display:none !important;}
+      a.gflag {vertical-align:middle;font-size:16px;padding:1px 0;background-repeat:no-repeat;background-image:url(//gtranslate.net/flags/16.png);}
+      a.gflag img {border:0;}
+      a.gflag:hover {background-image:url(//gtranslate.net/flags/16a.png);}
+      #goog-gt-tt {display:none !important;}
       .goog-te-banner-frame {display:none !important;}
       .goog-te-menu-value:hover {text-decoration:none !important;}
+      body {top:0 !important;}
+      #google_translate_element2 {display:none!important;}
       
-      #google_translate_element2 {
-        display:none!important;
-      
-      }
-
-      .translator{
-        margin-top: 10px;
-        text-align: left;
-        
-      }
-
       
          
         
