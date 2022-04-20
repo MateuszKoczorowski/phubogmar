@@ -56,7 +56,7 @@ border-bottom:5px solid rgba(4, 4, 188);
     width: 100%;
     font-size: large;
     padding: 20px;
-    margin-top: 30px;
+    
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -355,15 +355,14 @@ border-bottom:5px solid rgba(4, 4, 188);
       margin-left: auto;
       margin-right:auto ;
       margin: 0px;
-    
+    padding: 0;
       z-index: -1;
     }
 
 
     .slider2.slider.element-title {
-      font-size: 8px;
-      padding-left:2rem;
-      padding-right:2rem;
+      font-size: 4px;
+     
   }
 
   .slider2 .element1{
@@ -381,13 +380,13 @@ border-bottom:5px solid rgba(4, 4, 188);
   /*===========SLIDER================ */
   .slider {
     position: relative;
-    background: #eee;
+    width: 100%;
     background-size: cover;
     background-position: center center;
     display: grid;
     grid-template-columns: 4rem 1fr 4rem;
     grid-template-rows: 1fr;
-    height: 500px;
+    height: 800px;
   }
 .slider-slides-cnt {
     grid-column: 1 / -1;
