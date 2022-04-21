@@ -11,6 +11,7 @@ input {
 }
 
 .tab {
+  margin: 10px 0 10px 0;
   width: 100%;
   color: white;
   overflow: hidden;
@@ -20,14 +21,14 @@ input {
   display: flex;
   justify-content: space-between;
   padding: 1em;
-  background: #2c3e50;
+  background: #04509d;
   font-weight: bold;
   cursor: pointer;
   /* Icon */
 }
 
 .tab-label:hover {
-  background: #1a252f;
+  background: #03376b;
 }
 
 .tab-label::after {
@@ -41,7 +42,7 @@ input {
 .tab-content {
   max-height: 0;
   padding: 0 1em;
-  color: #2c3e50;
+  color: #04509d;
   background: white;
   transition: all .35s;
 }
@@ -51,16 +52,18 @@ input {
   justify-content: flex-end;
   padding: 1em;
   font-size: 0.75em;
-  background: #2c3e50;
+  background: #04509d;
   cursor: pointer;
+  width: 8%;
+  border-radius: 50px;
 }
 
 .tab-close:hover {
-  background: #1a252f;
+  background: #03376b;
 }
 
 input:checked + .tab-label {
-  background: #1a252f;
+  background: #03376b;
 }
 
 input:checked + .tab-label::after {

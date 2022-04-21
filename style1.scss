@@ -1,4 +1,4 @@
-$midnight: #2c3e50;
+$midnight: #04509d;
 $clouds: #ecf0f1;
 input {
   position: absolute;
@@ -11,6 +11,7 @@ input {
     box-shadow: 0 4px 4px -2px rgba(0,0,0,0.5);
   }
   .tab {
+    margin:  10px 0 10px 0;
     width: 100%;
     color: white;
     overflow: hidden;
