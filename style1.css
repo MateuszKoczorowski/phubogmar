@@ -40,6 +40,7 @@ input {
 }
 
 .tab-content {
+  margin:  10px 0 10px 0;
   max-height: 0;
   padding: 0 1em;
   color: #04509d;
