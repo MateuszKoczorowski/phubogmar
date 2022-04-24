@@ -1,4 +1,4 @@
-$midnight: #126B1E;
+$midnight: #44A6B8;
 $clouds: #ecf0f1;
 input {
   position: absolute;
@@ -46,7 +46,8 @@ input {
       justify-content: flex-end;
       padding: 1em;
       font-size: 0.75em;
-      background: $midnight;
+      background: #8A013F;
+      width: 10%;
       cursor: pointer;
       &:hover {
         background: darken($midnight, 10%);
