@@ -21,14 +21,14 @@ input {
   display: flex;
   justify-content: space-between;
   padding: 1em;
-  background: #32B844;
+  background: #126B1E;
   font-weight: bold;
   cursor: pointer;
   /* Icon */
 }
 
 .tab-label:hover {
-  background: #279035;
+  background: #0b3f12;
 }
 
 .tab-label::after {
@@ -42,7 +42,7 @@ input {
 .tab-content {
   max-height: 0;
   padding: 0 1em;
-  color: #32B844;
+  color: #126B1E;
   background: white;
   transition: all .35s;
 }
@@ -52,16 +52,16 @@ input {
   justify-content: flex-end;
   padding: 1em;
   font-size: 0.75em;
-  background: #32B844;
+  background: #126B1E;
   cursor: pointer;
 }
 
 .tab-close:hover {
-  background: #279035;
+  background: #0b3f12;
 }
 
 input:checked + .tab-label {
-  background: #279035;
+  background: #0b3f12;
 }
 
 input:checked + .tab-label::after {
