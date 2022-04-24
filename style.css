@@ -354,6 +354,7 @@ border-bottom:5px solid #83013b;
 
     .slider2 {
       width: 100%;
+      height: 20%;
       margin-left: auto;
       margin-right:auto ;
       margin: 0px;
@@ -364,20 +365,21 @@ border-bottom:5px solid #83013b;
 
     .slider2.slider.element-title {
       font-size: 4px;
+     background-size: cover;
      
   }
 
   .slider2 .element1{
-    background-attachment: none;
-    background-size:390px 844px ;
+    
+    height: 500px;
   }
   .slider2 .element2{
-    background-attachment: none;
-    background-size:390px 844px ;
+    background-size: cover;
+    height: 500px;
   }
   .slider2 .element3{
-    background-attachment: none;
-    background-size:390px 844px ;
+    background-size: cover;
+    height: 500px;
     
     
   }
@@ -526,7 +528,7 @@ border-bottom:5px solid #83013b;
           background:
               linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.5)),
               url(img/istockphoto-946210052-612x612.jpg);
-              background-size: contain;
+              background-size: cover;
           background-position: center center;
           background-attachment: fixed;
       }
