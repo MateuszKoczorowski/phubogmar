@@ -368,13 +368,16 @@ border-bottom:5px solid #83013b;
   }
 
   .slider2 .element1{
-    background-attachment: scroll;
+    background-attachment: none;
+    
   }
   .slider2 .element2{
-    background-attachment: scroll;
+    background-attachment: none;
+    
   }
   .slider2 .element3{
-    background-attachment: scroll;
+    background-attachment: none;
+    
     
   }
 }
