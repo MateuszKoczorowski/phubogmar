@@ -19,7 +19,7 @@
 
   }
   nav{
-border-bottom:5px solid #8A013F;
+border-bottom:5px solid #83013b;
     
   }
   nav a {
@@ -145,7 +145,7 @@ border-bottom:5px solid #8A013F;
   #product a:hover{
     
     color: rgb(0, 0, 0);
-    box-shadow: inset 0 2em 4em #078C1B;
+    box-shadow: inset 0 2em 4em #6B6212;
   }
   .product-title h3{
     color: #fff;
@@ -203,7 +203,7 @@ border-bottom:5px solid #8A013F;
    height: 100%;
     width: 100%;
     text-align: center;
-   background-color:#8A013F;
+   background-color:#83013b;
     color: seashell;
     margin: 0;
     bottom: 0;
@@ -261,7 +261,7 @@ border-bottom:5px solid #8A013F;
     .button{
       display: flex;
       justify-content: center;
-      background-color:#8A013F;
+      background-color:#83013b;
       position: -webkit-sticky;
       position: sticky;
       top: 0;
@@ -346,7 +346,7 @@ border-bottom:5px solid #8A013F;
       max-height: 200px;;
       width: 100%;
       text-align: center;
-      background-color:#8A013F;
+      background-color:#83013b;
       color: seashell;
       bottom: 0;
       margin:  40% 0 0 0 ;
