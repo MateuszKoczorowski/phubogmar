@@ -19,7 +19,7 @@
 
   }
   nav{
-border-bottom:5px solid rgba(4, 4, 188);
+border-bottom:5px solid #8C4F0E;
     
   }
   nav a {
@@ -145,7 +145,7 @@ border-bottom:5px solid rgba(4, 4, 188);
   #product a:hover{
     
     color: rgb(0, 0, 0);
-    box-shadow: inset 0 2em 4em rgb(247, 236, 199);
+    box-shadow: inset 0 2em 4em #078C1B;
   }
   .product-title h3{
     color: #fff;
@@ -203,7 +203,7 @@ border-bottom:5px solid rgba(4, 4, 188);
    height: 100%;
     width: 100%;
     text-align: center;
-   background-color:rgb(70, 70, 230);
+   background-color:#8C4F0E;
     color: seashell;
     margin: 0;
     bottom: 0;
@@ -261,7 +261,7 @@ border-bottom:5px solid rgba(4, 4, 188);
     .button{
       display: flex;
       justify-content: center;
-      background-color:rgb(4, 4, 188 );
+      background-color:#8C4F0E;
       position: -webkit-sticky;
       position: sticky;
       top: 0;
@@ -346,7 +346,7 @@ border-bottom:5px solid rgba(4, 4, 188);
       max-height: 200px;;
       width: 100%;
       text-align: center;
-      background-color:rgb(88, 88, 239);
+      background-color:#8C4F0E;
       color: seashell;
       bottom: 0;
       margin:  40% 0 0 0 ;

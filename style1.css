@@ -21,14 +21,14 @@ input {
   display: flex;
   justify-content: space-between;
   padding: 1em;
-  background: #04509d;
+  background: #32B844;
   font-weight: bold;
   cursor: pointer;
   /* Icon */
 }
 
 .tab-label:hover {
-  background: #03376b;
+  background: #279035;
 }
 
 .tab-label::after {
@@ -40,10 +40,9 @@ input {
 }
 
 .tab-content {
-  
   max-height: 0;
   padding: 0 1em;
-  color: #04509d;
+  color: #32B844;
   background: white;
   transition: all .35s;
 }
@@ -53,18 +52,16 @@ input {
   justify-content: flex-end;
   padding: 1em;
   font-size: 0.75em;
-  background: #04509d;
+  background: #32B844;
   cursor: pointer;
-  width: 130px;
-  border-radius: 50px;
 }
 
 .tab-close:hover {
-  background: #03376b;
+  background: #279035;
 }
 
 input:checked + .tab-label {
-  background: #03376b;
+  background: #279035;
 }
 
 input:checked + .tab-label::after {
