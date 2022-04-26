@@ -356,7 +356,7 @@ border-bottom:5px solid #83013b;
       background-color:#83013b;
       color: seashell;
       bottom: 0;
-      margin:  40% 0 0 0 ;
+      
     }
 
     .slider2 {
@@ -398,6 +398,8 @@ border-bottom:5px solid #83013b;
     height:  150px;
     
   }
+
+
 }
 
   /*===========SLIDER================ */
@@ -599,6 +601,25 @@ border-bottom:5px solid #83013b;
         display: block;
       }
 
+      .list li{
+        list-style: none;
+        text-align: left;
+        font-size: 20px;
+        color: rgb(141, 141, 141);
+        padding: 5px;
+        
+      }
+      .list li i{
+        color: #83013b;
+      }
+
+      .list h3{
+        font-size: 30px;
+        color: rgb(129, 129, 129);
+        border-bottom:2px solid #83013b;
+        padding: 20px;
+        font-family: 'Roboto Condensed', sans-serif;
+      }
 
          
         
