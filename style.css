@@ -214,7 +214,7 @@ border-bottom:5px solid #83013b;
   }
 
   .pp{
-    height: 500px;
+    height: 200px;
   }
 
   .socialmedia{
@@ -579,5 +579,20 @@ border-bottom:5px solid #83013b;
       #google_translate_element2 {display:none!important;}
       
       
+
+      .tab img{
+        width: 300px ;
+        height:  200px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px; 
+      }
+
+      .tab span{
+        display: block;
+      }
+
+
          
         
