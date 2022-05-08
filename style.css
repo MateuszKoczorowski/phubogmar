@@ -226,6 +226,14 @@ border-bottom:5px solid #83013b;
       flex-direction: column;
       z-index: 30;
     }
+    .logo{
+      position: fixed;
+      color: white;
+      text-decoration: none;
+      left: 10px;
+      
+      
+    }
 
     .button{
       display: flex;
@@ -235,6 +243,7 @@ border-bottom:5px solid #83013b;
       position: sticky;
       top: 0;
     }
+
 
     button{
       border: none;
