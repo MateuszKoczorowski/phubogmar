@@ -227,11 +227,11 @@ border-bottom:5px solid #83013b;
       z-index: 30;
     }
     .logo{
-      position: fixed;
+      position: static;
       color: white;
       text-decoration: none;
       left: 10px;
-      
+      display: flex;
       
     }
 
