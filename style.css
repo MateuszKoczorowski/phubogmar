@@ -383,7 +383,7 @@ border-bottom:5px solid #83013b;
     background:
           linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.5)),
           url(img/12.jpg);
-          background-size: contain;
+          
       background-position: left left;
       
   }
@@ -393,7 +393,7 @@ border-bottom:5px solid #83013b;
         background:
               linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.5)),
               url(img/13.jpg);
-              background-size:contain;
+             
               background-position: left left;
           
     
@@ -404,7 +404,7 @@ border-bottom:5px solid #83013b;
     background:
           linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.5)),
           url(img/14.jpg);
-          background-size: contain;
+          
           background-position: left left;
     
 
