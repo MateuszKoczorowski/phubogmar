@@ -566,5 +566,43 @@ border-bottom:5px solid #83013b;
         font-family: 'Roboto Condensed', sans-serif;
       }
 
+         /*==============================KOntakt =====================================*/
+        .contakt{
+         width: 70%;
+         margin-left: auto;
+         margin-right: auto;
+        }
+
+         .name{
+          text-align: center;
+         }
+
+         .numer{
+           padding: 10px;
+           text-align: center;
+           background-color: #c5c5c5;
+           border-radius: 50px ;
+         }
+
+         .contakt hr {
+           background-color: #83013b;
+           height: 5px;
+         }
+
+         .contakt h3{
+          font-family: sans-serif;
+          color: #83013b;
+         }
+
+         .contakt a {
+           text-decoration: none;
+           color: #000;
+         }
+
+         .contakt a:hover{
+           border-bottom: 2px solid #44A6B8 ;
+         }
+
+
+
          
-        
