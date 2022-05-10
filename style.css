@@ -226,6 +226,7 @@ border-bottom:5px solid #83013b;
     nav {   
       flex-direction: column;
       z-index: 30;
+      height: 200px;
     }
     .logo{
       position: static;
